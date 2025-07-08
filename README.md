@@ -20,19 +20,19 @@ The system uses AI to ensure that all required fields for each ticket type are p
 
 In this repository, Cursor Rules ensure that all JIRA tickets are created with the required fields, structure, and estimation practices that match your team's standards.
 
-## What is `cursor-config.md`?
+## What is `.cursor/rules/jira-ticket.mdc`?
 
-The `cursor-config.md` file is a configuration file that defines your team's JIRA ticket requirements, field definitions, and best practices. It tells the AI assistant exactly how to structure tickets, what information to request, and how to estimate effort. This ensures consistency and quality across all generated tickets.
+The `.cursor/rules/jira-ticket.mdc` file is a configuration file that defines your team's JIRA ticket requirements, field definitions, and best practices. It tells the AI assistant exactly how to structure tickets, what information to request, and how to estimate effort. This ensures consistency and quality across all generated tickets.
 
 ### How to Set Up Your Configuration
-1. **Copy** the `sample-cursor-config.md` file to a new file named `cursor-config.md` in the project root.
-2. **Edit** `cursor-config.md` to match your team’s JIRA practices. You can:
+1. **Copy** the `.cursor/rules/jira-ticket.sample` file to a new file named `.cursor/rules/jira-ticket.mdc` in the same directory.
+2. **Edit** `.cursor/rules/jira-ticket.mdc` to match your team’s JIRA practices. You can:
    - Add or remove required fields
    - Update field definitions and expectations
    - Include examples of well-scoped, well-estimated JIRA tickets from your team
 3. **Save** the file. Cursor will use this configuration to guide ticket creation.
 
-> **Note:** The `cursor-config.md` file is included in `.gitignore` by default, so your team can customize it without affecting version control.
+> **Note:** The `.cursor/rules/jira-ticket.mdc` file is included in `.gitignore` by default, so your team can customize it without affecting version control.
 
 ### Example of a Well-Scoped JIRA Ticket
 
