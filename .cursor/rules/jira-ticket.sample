@@ -35,9 +35,9 @@ You must first identify the ticket type from the user or by asking clarifying qu
 * Acceptance Criteria: Specific, testable conditions.
 * Requirements: Functional requirements needed.
 * End to End Test: One clear customer-perspective test flow.
-* Severity: Critical / Important / Moderate / Low / Informational (default to Low).
+* Severity: Critical / Major / Minor / Normal / Undefined (default to Undefined).
 * Component/s: Affected module/area; leave blank if unknown.
-* Labels: Always use `AI-Generated`.
+* Labels: Always use `ai-generated`.
 * Story Points: Story Points are relative measures of effort (not exact hours) used to estimate:
  - How complex a task is.
  - How much effort it will take for an average-performing software engineer.
