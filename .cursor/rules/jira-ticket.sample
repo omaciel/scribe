@@ -42,7 +42,7 @@ You must first identify the ticket type from the user or by asking clarifying qu
  - How complex a task is.
  - How much effort it will take for an average-performing software engineer.
  - How much uncertainty/risk there is in the work.
- - Use Fibonacci: 1, 2, 3, 5, 7, 8, 13:
+ - Use Fibonacci: 1, 2, 3, 5, 8, 13:
  * 1: tiny (few hours)
  * 2: small (0.5-1 day)
  * 3: medium-small (1-2 days)
