@@ -1,1 +1,2 @@
-.cursor/rules/jira-ticket.mdc
+# Ignore user specific config file
+.cursor/rules/config.ini

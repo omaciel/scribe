@@ -1,0 +1,37 @@
+---
+definition: These are the required information that JIRA tickets need.
+alwaysApply: true
+---
+# Field Definitions and Expectations:
+
+## Common Fields (all ticket types):
+
+* Summary: Short, clear title.
+* Description: Detailed explanation and context.
+* Supporting documentation: Add relevant links. If none, state: “No docs provided; please add if available.”
+* Definition of Done: Format: “As a  I want  so that .”
+* Acceptance Criteria: Specific, testable conditions.
+* Requirements: Functional requirements needed.
+* End to End Test: One clear customer-perspective test flow.
+* Priority: Critical / Major / Minor / Normal / Undefined (default to Undefined).
+* Severity: Critical / Major / Minor / Normal / Undefined (default to Undefined).
+* Component/s: Affected module/area; leave blank if unknown.
+* Labels: Always use `ai-generated`.
+* Story Points: Story Points are relative measures of effort (not exact hours) used to estimate:
+ - How complex a task is.
+ - How much effort it will take for an average-performing software engineer.
+ - How much uncertainty/risk there is in the work.
+ - Use Fibonacci: 1, 2, 3, 5, 8, 13:
+ * 1: tiny (few hours)
+ * 2: small (0.5-1 day)
+ * 3: medium-small (1-2 days)
+ * 5: medium (2-5 days)
+ * 8: large (5-7 days)
+ * 13: very large (7-10+ days, consider splitting)
+
+## Additional Fields by Type:
+
+* EPIC: Epic Name, Background, User Stories
+* USER STORY: User Stories
+* BUG: Steps to Reproduce, Actual Behavior, Expected Behavior, Additional Context
+

@@ -1,0 +1,26 @@
+---
+description: This is JIRA ticket data should be sent to JIRA MCP. 
+alwaysApply: true
+---
+# Example payload for a JIRA ticket
+
+Always check @config.ini for user-specific default values and then use the following format to generate the ticket payload to be sent to JIRA:
+
+```yaml
+task_template:
+  project_key: "{{ project_key }}"
+  summary: "{{ summary }}"
+  issue_type: "{{ issue_type|Task }}"
+  assignee: "{{ assignee_email }}"
+  description: "{{ description }}"
+  additional_fields:
+    priority:
+      name: "{{ priority|Normal }}"
+    severity:
+      name: "{{ severity|Normal }}"
+    labels:
+      - "{{ labels }}"
+    {{ workstream_field }}:
+      - id: "{{ workstream_id }}"
+    {{ story_points_field }}: "{{ story_points|3 }}"
+```

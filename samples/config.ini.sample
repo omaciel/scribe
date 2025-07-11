@@ -1,0 +1,13 @@
+{% set project_key = PRJ %}
+{% set assignee_email = homer@foobar.com %}
+{% set priority = Major %}
+{% set severity = Normal %}
+{% set labels = ai-generated %}
+{% set issue_type = Task %}
+{% set story_points = 1 %}
+
+# Custom fields
+# These will vary depending on your JIRA instance and configuration
+{% set story_points_field = customfield_12310243 %}
+{% set workstream_field = customfield_12319275 %}
+{% set workstream_id = 00001 %}

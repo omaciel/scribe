@@ -1,0 +1,12 @@
+---
+definition: These are the supported ticket types for JIRA.
+alwaysApply: true
+---
+
+## Ticket Types Supported:
+
+* EPIC
+* USER STORY
+* GENERAL TASK
+* SPIKE
+* BUG
